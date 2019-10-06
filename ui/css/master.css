@@ -1,6 +1,7 @@
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: black;
+    color: white;
     margin: 0%;
 }
 
@@ -25,12 +26,12 @@ body{
     list-style: none;
 }
 .header li a{
-    color: rgb(24, 5, 5);
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
 .header a:hover{
-    color: white;
+    color: blue;;
 }
 .portfolio-profile {
     width: 650px;
@@ -98,3 +99,34 @@ main {
   .skill-main-grid h2 {
     font-size: 1.5rem;
   }
+.email-box{
+  padding: 10px;
+  background-color: dimgrey;
+  height: 300px;
+  width: auto;
+}
+.footer{
+    background-color: darkslategrey;
+    margin-bottom: 0%;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button1{
+  padding: 5px;
+}
