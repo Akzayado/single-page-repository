@@ -1,0 +1,132 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0%;
+}
+
+.header{
+    background-image: url('../img/sackcloth.jpeg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header ul{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.34rem;
+}
+.header ul li{
+    margin: 0px 10px;
+    list-style: none;
+}
+.header li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.header a:hover{
+    color: blue;;
+}
+.portfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+  }
+  .portfolio-profile img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  .portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 3.2rem;
+  }
+  .portfolio-profile h2 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 2.2rem;
+  }
+  /* MAIN */
+main {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(8, 4, 37);
+    text-align: center;
+  }
+  #about {
+    padding: 45px;
+    color: white;
+  }
+  #about h2{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+  #about p {
+    font-size: 1.3rem;
+    font-weight: 300;
+  }
+  #skills {
+    color: white;
+    background-color: rgb(23, 23, 26);
+    padding-top: 15px;
+  }
+  
+  #skills h2{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 20px 0px;
+  }
+  #skills h3{
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  .skill-main-grid {
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .skill-main-grid h2 {
+    font-size: 1.5rem;
+  }
+.email-box{
+  padding: 10px;
+  background-color: dimgrey;
+  height: 300px;
+  width: auto;
+}
+.footer{
+    background-color: darkslategrey;
+    margin-bottom: 0%;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button1{
+  padding: 5px;
+}
