@@ -1,0 +1,23 @@
+{
+  "name": "single-page-repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.io/2047584/single-page-repository",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2047584/single-page-repository.git"
+  },
+  "author": "Torres Rey Eduard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2047584/single-page-repository/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
